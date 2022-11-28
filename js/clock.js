@@ -10,5 +10,5 @@ function getClock() {
 }
 
 getClock(); //1초기다리지 않고 바로 실행되게 즉시 호출해줌
-setInterval(getClock, 1000); // 매 초마다 실행되게 호출해줌(ms단위)
+setInterval(getClock, 1000); // 매 설정해준 초(ms)마다 실행되게 호출해줌
 
