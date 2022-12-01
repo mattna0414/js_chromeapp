@@ -25,8 +25,8 @@ function paintToDo(newTodo){
   const button = document.createElement("button");
   button.innerText = "❌";
   button.addEventListener("click", deleteToDo);
-  li.appendChild(span);//li자식으로 span요소 추가하기
   li.appendChild(button);//li자식으로 button 요소 추가하기
+  li.appendChild(span);//li자식으로 span요소 추가하기
   toDoList.appendChild(li);
 }
 
