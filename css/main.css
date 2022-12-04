@@ -28,6 +28,8 @@ img {
 
 ul {
   list-style: none;
+
+  align-items: center;
 }
 
 .hidden {
@@ -45,40 +47,49 @@ input {
 
 input::placeholder {
   color: #fff;
+  font-size: 15px;
 }
 
 /* Greeting */
 h1 {
   font-size: 40px;
+  margin-bottom : 10px;
 
 }
 .login-form {
-
+  margin-top: 80px;
+  margin-bottom: 48px;
 }
 .login-form input{
-
+  font-size: 20px;
 }
 /* Clock */
 h2{
-  display: block;
   font-size: 50px;
 }
+
 /* Quote */
 #quote {
   position: fixed;
-  bottom: 15px;
+  bottom: 50px;
 }
 
 /* TODolist */
 #todo-form{
+  display: inline-grid;
+}
 
+#todo-form p {
+  font-size: 22px;
 }
 
 #todo-form li {
-
+font-size: 18px;
 }
 
 /* Weather */
 #weather {
-  
+  position: fixed;
+  top: 15px;
+  right: 10px;
 }
