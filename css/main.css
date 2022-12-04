@@ -20,10 +20,11 @@ button {
 /* img */
 img {
   position: absolute;
-  width:100%;
+  /* width:100%; */
   max-width: 100%;
   height: auto;
   z-index: -1;
+  background-size: cover;
 }
 
 ul {
