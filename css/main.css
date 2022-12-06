@@ -1,3 +1,4 @@
+@import "reset.css";
 body {
   height: 100%;
   width:100%;
@@ -14,16 +15,18 @@ button {
   border: none;
   cursor:pointer;
   color: #fff;
+  outline: none;
 }
 
 
 /* img */
 img {
   position: absolute;
-  /* width:100%; */
-  max-width: 100%;
-  height: auto;
+  width:100%;
+  height: 100%;
   z-index: -1;
+  top:0;
+  left:0;
   background-size: cover;
 }
 
@@ -43,12 +46,15 @@ input {
   border: none;
   border-bottom: 2px solid #fff;
   text-align: center;
+  width: 400px;
+  height:50px;
   font-size: 20px;
 }
 
 input::placeholder {
   color: #fff;
-  font-size: 15px;
+  font-size: 25px;
+  text-align: center;
 }
 
 /* Greeting */
@@ -58,30 +64,45 @@ h1 {
 
 }
 .login-form {
-  margin-top: 80px;
+  margin-top: 30px;
   margin-bottom: 48px;
 }
 .login-form input{
   font-size: 20px;
 }
+
+#greeting {
+  font-size: 40px;
+  margin: 40px 0 0;
+}
+
+.hidden {
+  margin: 30px;
+}
 /* Clock */
-h2{
-  font-size: 50px;
+#clock{
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  padding: 50px 0 0 0;
 }
 
 /* Quote */
-#quote {
+#quotes {
+  font-size: 20px;
   position: fixed;
   bottom: 50px;
 }
 
 /* TODolist */
 #todo-form{
-  display: inline-grid;
+  padding:80px 40px;
+  display: flex;
+  justify-content: center;
 }
 
 #todo-form p {
-  font-size: 22px;
+  font-size: 20px;
 }
 
 #todo-form li {
